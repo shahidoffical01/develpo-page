@@ -1,0 +1,75 @@
+ #navbar {
+	height: 60px;
+	background-color: #000;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+.nav{
+	width:10%;
+	height: 60px;
+	padding: 10px; 
+	
+} 
+.nav{
+	float: right;
+	width: 400px;
+	padding-right: 0px;
+	text-align: center;
+}
+.nav, .logo{
+	display: inline-block;
+}
+.nav ul li {
+	display: inline-block;
+}
+.logo{
+	color: red;
+	padding-left: 10px;
+	font-size: 19px;
+}
+.logo span{
+	color: DarkGreen;
+}
+.box {
+	text-align: center;
+	background-image: url('../img/2.jpg');
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+	margin-right: 25px;
+	margin-left: 25px;
+	padding-top: 5px;
+}
+.box h1{
+	padding-top: 10px;
+	text-align: center;
+	font-size: 40px;
+	color: navy;
+}
+.box h3 {
+	font-size: 25px;
+	color: 	#F70000 ;
+	padding-top: 10px;
+}
+.box hr {
+	border: 2px solid blue;
+	width: 33%;
+	
+}
+.box button {
+	width: 120px;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 17px;
+	border: 3px solid DarkGreen;
+	color: navy;
+	background-color: Cyan;
+}
+button:hover {
+	color:blue;
+	text-decoration: none; 
+}
+button:active{
+	color: red;
+}
+
